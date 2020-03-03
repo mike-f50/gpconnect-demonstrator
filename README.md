@@ -59,7 +59,7 @@ PATH should contain the bin directory of both M2_HOME and JAVA_HOME, e.g.
 
 ### Installation of the MySQL database
 Use the MySQL Installer (http://dev.mysql.com/downloads/installer) to install:
-* MySQL Server
+* MySQL Server (version 5.7 or earlier)
 * MySQL Workbench
 * MySQL Notifier
 
