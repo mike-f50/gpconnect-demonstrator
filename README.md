@@ -111,6 +111,15 @@ cd {projectRoot}/webapp
 grunt build
 ```
 
+If this fails with "Fatal error: Unable to find local grunt.", try installing Grunt within the project:
+```sh
+cd {projectRoot}/webapp
+npm install grunt --save-dev
+npm audit fix
+npm install
+grunt build
+```
+
 The *build* task minifies and uglifies the front end code in the webapp directory of the project, and packages it up in the gpconnect-demonstrator-api module under the following directory:
 ```
 {projectRoot}/gpconnect-demonstrator-api/src/main/webapp
